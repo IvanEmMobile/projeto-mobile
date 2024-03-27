@@ -93,6 +93,8 @@ header {
 }
 
 @media screen and (max-width: 730px) {
+    /*editar o first mobile para editar o textarea e result*/
+    
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -149,28 +151,25 @@ main {
     padding-top: 1.2em;
     padding-left: 1.2em;
     padding-right: 0.9em;
+   
     background-color: #f7f8fa;
 }
 
+/**/
 .i-img{
     width: 50vw;
     max-width:  79vw;
 
 }
 
-
 textarea {
-    width: 98%;
+    width: 95%;
     height: 8rem;
 }
 
-/*footer {
-    padding: 1rem;
-    background-color: black;
-    color: white;
-}*/
 #result {
-    padding: 0.3rem;
+    padding: 0.9rem;
+    
     background-color: rgb(125, 5, 199);
     color: white;
     font-weight: 770;
