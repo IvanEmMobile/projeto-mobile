@@ -158,4 +158,22 @@ main {
 
 }
 
+
+textarea {
+    width: 98%;
+    height: 8rem;
+}
+
+/*footer {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}*/
+#result {
+    padding: 0.3rem;
+    background-color: rgb(125, 5, 199);
+    color: white;
+    font-weight: 770;
+    font-size: 1.3rem;
+}
 /*** FEITO POR: LARISSA V. KICH feat Ivan Paulino ***/
