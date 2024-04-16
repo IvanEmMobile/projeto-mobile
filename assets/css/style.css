@@ -94,7 +94,7 @@ header {
 
 @media screen and (max-width: 730px) {
     /*editar o first mobile para editar o textarea e result*/
-    
+
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -144,21 +144,36 @@ header {
 }
 
 main {
-    display:  grid;
+    display: grid;
     place-items: right;
     overflow: hidden;
-    text-align:justify;
+    text-align: justify;
     padding-top: 1.2em;
     padding-left: 1.2em;
     padding-right: 0.9em;
-   
+
     background-color: #f7f8fa;
+/*
+
+
+*/
+
+}
+
+p{
+    line-height: 1.6em;
 }
 
 /**/
-.i-img{
+.i-img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+
+    /*
     width: 50vw;
-    max-width:  79vw;
+    max-width: 79vw;
+    */
 
 }
 
@@ -169,10 +184,11 @@ textarea {
 
 #result {
     padding: 0.9rem;
-    
+
     background-color: rgb(125, 5, 199);
     color: white;
     font-weight: 770;
     font-size: 1.3rem;
 }
+
 /*** FEITO POR: LARISSA V. KICH feat Ivan Paulino ***/
